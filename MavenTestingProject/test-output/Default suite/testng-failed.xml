@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Listeners.HardAssertion_Example">
+        <methods>
+          <include name="wait1"/>
+          <include name="launchBrowser"/>
+          <include name="wait2"/>
+          <include name="closeBrowser"/>
+          <include name="verifyTitle1"/>
+          <include name="launchURL"/>
+        </methods>
+      </class> <!-- Listeners.HardAssertion_Example -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
